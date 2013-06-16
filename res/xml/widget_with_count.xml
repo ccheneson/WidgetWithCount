@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/main"
+	android:minWidth="74dp"
+	android:minHeight="74dp"
+	android:label="My App Widget Count"	
+	android:updatePeriodMillis="10000">
+  
+</appwidget-provider>

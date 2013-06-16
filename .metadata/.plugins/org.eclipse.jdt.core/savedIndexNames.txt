@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/mydev/workspace-adt/WidgetWithCount/.metadata/.plugins/org.eclipse.jdt.core
+4291254832.index
+2851181791.index

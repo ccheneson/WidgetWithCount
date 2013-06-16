@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+   	android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+	<RelativeLayout
+	    android:orientation="vertical"
+	    android:background="@null"
+	    android:id="@+id/rlayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"    
+	    >
+		<ImageView 
+			android:id="@+id/icon"
+		    android:src="@drawable/icon" 
+		    android:layout_margin="0dp"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content"/>
+		    
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="50" android:textSize="9dp" android:textStyle="bold"  
+			android:background="@drawable/shapecount"
+			android:textColor="#FFFFFF"
+			android:paddingLeft="3dp" android:paddingRight="3dp"
+		    android:layout_margin="0dp"
+			android:layout_alignBottom="@+id/rlayout"
+			android:id="@+id/txtCount" />
+		
+	</RelativeLayout>
+	
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="My App Name" android:textSize="9dp" android:textStyle="bold"  
+			android:background="@drawable/shapecount"
+			android:textColor="#FFFFFF"
+			android:paddingLeft="3dp" android:paddingRight="3dp"
+		    android:layout_margin="0dp"
+			android:layout_alignBottom="@+id/rlayout"
+			android:id="@+id/txtAppName" />
+</LinearLayout>
